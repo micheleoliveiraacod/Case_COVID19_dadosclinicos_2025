@@ -4,19 +4,19 @@ Este repositório documenta a minha análise sobre o dataset de casos de COVID19
 <br/>
 <br/>
 
-## 🎯Objetivo: 
+## 📋 Visão Geral
 
 Identificar padrões criticos sobre o total de casos de COVID-19 no Brasil, por estado, faixa etária, comorbidades, taxa de internação na UTI e taxa de vacinação.
 <br/>
 <br/>
 
-## 📌Escopo:
+## 📍 Escopo:
 
 Análise descritiva e diagnóstica.
 <br/>
 <br/>
 
-## ❓Algumas questões respondidas:
+## 📍 Algumas questões respondidas:
 
 Quais comorbidades foram mais frequentes?
 
