@@ -80,8 +80,9 @@ Em quantos casos fizeram raio-x e tomografia em relação ao total?
 
 ## ⚖️ Uso Ético e Responsável
 
-*Este projeto tem objetivos acadêmicos, apenas.*
+*Este projeto tem objetivos acadêmicos.*
 
-✅ Permitido: Observar o que e como foi feito, e usar como referêcia para replicar o método.
+✅ Permitido: Observar o trabalho e, usar como referêcia para replicar o método.
 
 ❌ Proibido: Utilizar minhas análises e conclusão para fazer declarações, citações e afirmações de qualquer natureza.
+
