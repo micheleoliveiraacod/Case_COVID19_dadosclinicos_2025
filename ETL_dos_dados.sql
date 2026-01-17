@@ -1,7 +1,7 @@
 # 1. A primeira etapa da tranformação foi feita com linguagem R.
 # O Script esta descrito no arquivo (Analise_script.R).
 
-# 2. A segunda etapa foi feita no EXCEL, eu abrir CSV no Power Query.
+# 2. A segunda etapa foi feita no EXCEL, editado no Power Query.
 
 # O QUE FOI FEITO
 
@@ -11,7 +11,7 @@
 
 #3.Esta parte do SQL não é necessária, eu fiz para treinar converter CSV em SQL com o RSTUDIO e ter este caminho salvo.
 
-Para fazer esse exercicio eu usei os dados bruto extraidos do datasus, o processo de transformaçao que eu fiz m linguagem R, também da pra fazer com o SQL.
+Para fazer esse exercicio eu usei os dados brutos extraidos do datasus, e o processo de transformaçao que eu fiz em linguagem R, também da pra fazer com o SQL.
 
 #TRANSFORMAR ARQUIVO CSV EM SQL. Precisa ter o SQLlite instalado.
 
@@ -78,48 +78,8 @@ FROM dados_covid
 GROUP BY ID_MUNICIP
 ORDER BY SG_UF
 
-SELECT SG_UF, 
-       ID_MUNICIP,
-       CS_SEXO,
-       ID_PAIS,
-       NU_IDADE_N,
-       FEBRE,
-       TOSSE,
-       GARGANTA,
-       DESC_RESP,
-       SATURACAO,
-       DIARREIA,
-       VOMITO,
-       FATOR_RISC
-       PIERPERA,
-       CARDIOPATI,
-       HEMATOLOGI,
-       SIND_DOWN,
-       HEPATICA,
-       ASMA,
-       DIABETES,
-       NEUROLOGIC,
-       PNEUMOPATI,
-       IMUNODEPRE,
-       RENAL,
-       OBESIDADE,
-       DOR_ABD,
-       FADIGA,
-       PERD_OLFT,
-       PERD_PALA,
-        VACINA,
-       FAB_COV_1,
-       FAB_COV_2,
-       DT_INTERNA,
-       UTI,
-       RAIOX_RES,
-       TOMO_RES,
-       AMOSTRA
-FROM dados_covid
-GROUP BY ID_MUNICIP
-ORDER BY SG_UF
 
-#FIZ UMA SOMA TOTAL POR UF (arquivo db_comorbidades_total_UF.csv)
+#FIZ UMA SOMA DO TOTAL POR UF
 
 SELECT 
   UF,
@@ -154,7 +114,7 @@ FROM dados_covid
 GROUP BY UF
 ORDER BY UF, total_casos DESC
 
-#FILTREI SOMENTE SINTOMAS (arquivo db_comorbidades_total_sintomas.csv)
+#FILTREI SOMENTE SINTOMAS CLINICOS POR UF
 
 SELECT 
   UF,
