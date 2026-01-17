@@ -10,16 +10,6 @@ Identificar padrões criticos sobre o total de casos de COVID-19 no Brasil, por 
 <br/>
 <br/>
 
-## ⚖️ Uso Ético e Responsável
-
-*Este projeto tem objetivos acadêmicos, apenas.*
-
-✅ Permitido: Observar o que e como foi feito, e usar como referêcia para replicar o método.
-
-❌ Proibido: Utilizar minhas análises e conclusão para fazer declarações, citações e afirmações de qualquer natureza.
-<br/>
-<br/>
-
 ## 📌Escopo:
 
 Análise descritiva e diagnóstica.
@@ -85,4 +75,13 @@ Em quantos casos fizeram raio-x e tomografia em relação ao total?
 - Conclusão - Respostas para as perguntas e uma breve discussão dos resultados.
 
 - [Dataset's do projeto no Google Drive](https://drive.google.com/drive/u/2/folders/19_gSEzlOwNPJJ_BaG6RUaiWtrmzmPxMO)
+<br/>
+<br/>
 
+## ⚖️ Uso Ético e Responsável
+
+*Este projeto tem objetivos acadêmicos, apenas.*
+
+✅ Permitido: Observar o que e como foi feito, e usar como referêcia para replicar o método.
+
+❌ Proibido: Utilizar minhas análises e conclusão para fazer declarações, citações e afirmações de qualquer natureza.
